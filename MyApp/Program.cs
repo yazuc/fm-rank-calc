@@ -1,5 +1,7 @@
 ﻿using fm;
 
 var rank = new Rank();
+var rankResult = new RankResult();
+rankResult.RankStats = rank;
 
-Console.WriteLine(rank.CardsUsed);
+Console.WriteLine(rankResult.Resultado);
